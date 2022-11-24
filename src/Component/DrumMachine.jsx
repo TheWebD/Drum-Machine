@@ -69,7 +69,7 @@ class DrumMachine extends React.Component{
                 case 'q':
                     this.pressQBtn.click()
                     let q = document.getElementById("pressQBtn");
-                    q.style.backgroundColor = "#ffa500"
+                    q.style.transform = "#ffa500"
                     setTimeout(() => 
                     q.style.backgroundColor = "#808080"
                     ,100)
@@ -141,8 +141,7 @@ class DrumMachine extends React.Component{
                 default:
                     
             }
-        })
-        
+        })   
     }
     
     pressQ(){

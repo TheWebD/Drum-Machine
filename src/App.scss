@@ -73,7 +73,7 @@ body {
                   transform: translateY(4px);
                   box-shadow: 1px 1px 0 var(--shadow-color);
                 }
-                
+
           }
         }
         
@@ -227,4 +227,26 @@ body {
         }
       }
     }
+}
+
+@media (max-width: 700px){
+
+  body {
+
+    .drum-machine {
+      margin: 5rem 0 1rem 0;
+
+      .content {       
+        flex-direction: column;
+
+        .drum-bank {
+          margin: 1rem 1rem 0 1rem;
+        }
+
+        .drum-machine-controller{
+          margin: 0 0 1rem 0;
+        }
+      }
+    }
+  }
 }
